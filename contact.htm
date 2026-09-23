@@ -1,0 +1,183 @@
+html
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>צור קשר</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        nav {
+            background: #173b5c;
+            padding: 15px 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 12px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background: white;
+            text-align: center;
+            padding: 50px 20px 35px;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            color: #173b5c;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 20px;
+            color: #555;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .contact-box {
+            background: white;
+            padding: 35px 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .contact-box h2 {
+            color: #173b5c;
+            margin-top: 0;
+        }
+
+        .contact-box p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .contact-button {
+            display: block;
+            max-width: 400px;
+            margin: 18px auto;
+            padding: 16px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .phone {
+            background: #173b5c;
+            color: white;
+        }
+
+        .whatsapp {
+            background: #25D366;
+            color: white;
+        }
+
+        .contact-button:hover {
+            opacity: 0.85;
+        }
+
+        .phone-number {
+            font-size: 20px;
+            margin-top: 25px;
+            color: #555;
+        }
+
+        @media (max-width: 700px) {
+
+            nav a {
+                display: inline-block;
+                margin: 6px 8px;
+                font-size: 16px;
+            }
+
+            header h1 {
+                font-size: 30px;
+            }
+
+            header p {
+                font-size: 18px;
+            }
+
+            .contact-button {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- תפריט ניווט -->
+    <nav>
+        <a href="iisstart.htm">דף הבית</a>
+        <a href="home-repairs.htm">תיקוני בית</a>
+        <a href="irrigation.htm">השקיה</a>
+        <a href="computers.htm">מחשבים ותקשורת</a>
+        <a href="installations.htm">התקנות</a>
+        <a href="security.htm">אבטחה</a>
+        <a href="contact.htm">צור קשר</a>
+    </nav>
+
+    <!-- כותרת -->
+    <header>
+        <h1>📞 צור קשר</h1>
+        <p>נשמח לשמוע מכם ולבדוק כיצד ניתן לעזור</p>
+    </header>
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <h2>איך נוח לכם ליצור קשר?</h2>
+
+            <p>
+                ניתן להתקשר ישירות או לשלוח הודעת WhatsApp.
+            </p>
+
+            <!-- טלפון -->
+            <a class="contact-button phone"
+               href="tel:0500000000">
+                📞 התקשרו עכשיו
+            </a>
+
+            <!-- WhatsApp -->
+            <a class="contact-button whatsapp"
+               href="https://wa.me/972500000000">
+                💬 שלחו הודעת WhatsApp
+            </a>
+
+            <div class="phone-number">
+                050-0000000
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
