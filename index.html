@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 
 <html lang="he" dir="rtl">
@@ -21,10 +21,10 @@
      SEO
      ========================= -->
 
-<title>דרור דותן | מערכות השקיה, מחשבים, תקשורת ותיקונים</title>
+<title>דרור דותן | שירותי תחזוקה ותיקונים באזור הקריות</title>
 
 <meta name="description"
-      content="דרור דותן – שירותי תחזוקה ותיקונים לבית, לגינה ולעסק. מערכות השקיה, מחשבים ותקשורת, התקנות לבית, תיקונים ומערכות אבטחה.">
+      content="דרור דותן – שירותי תחזוקה ותיקונים לבית, לגינה ולעסק באזור הקריות: קריית אתא, קריית חיים, קריית ביאליק וקריית מוצקין. מערכות השקיה, מחשבים ותקשורת, התקנות, תיקונים ומערכות אבטחה.">
 
 <meta name="robots" content="index, follow">
 
@@ -40,24 +40,15 @@
 <meta property="og:type" content="website">
 
 <meta property="og:title"
-      content="דרור דותן | מערכות השקיה, מחשבים, תקשורת ותיקונים">
+      content="דרור דותן | שירותי תחזוקה ותיקונים באזור הקריות">
 
 <meta property="og:description"
-      content="שירותי תחזוקה ותיקונים לבית, לגינה ולעסק – מערכות השקיה, מחשבים ותקשורת, התקנות ומערכות אבטחה.">
+      content="שירותי תחזוקה ותיקונים לבית, לגינה ולעסק באזור הקריות – קריית אתא, קריית חיים, קריית ביאליק וקריית מוצקין.">
 
 <meta property="og:url"
       content="https://דרור.ישראל/">
 
 <meta property="og:locale" content="he_IL">
-
-
-<!--
-<meta property="og:image"
-      content="https://דרור.ישראל/favicon.png">
-
-<meta property="og:image:alt"
-      content="דרור דותן – שירותי תחזוקה ותיקונים">
--->
 
 
 <!-- =========================
@@ -67,10 +58,42 @@
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="twitter:title"
-      content="דרור דותן | מערכות השקיה, מחשבים, תקשורת ותיקונים">
+      content="דרור דותן | שירותי תחזוקה ותיקונים באזור הקריות">
 
 <meta name="twitter:description"
-      content="שירותי תחזוקה ותיקונים לבית, לגינה ולעסק. מערכות השקיה, מחשבים ותקשורת, התקנות ומערכות אבטחה.">
+      content="שירותי תחזוקה ותיקונים לבית, לגינה ולעסק באזור הקריות – מערכות השקיה, מחשבים ותקשורת, התקנות, תיקונים ומערכות אבטחה.">
+
+
+<!-- =========================
+     LOCAL BUSINESS
+     ========================= -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "דרור דותן",
+  "url": "https://דרור.ישראל/",
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "קריית אתא"
+    },
+    {
+      "@type": "City",
+      "name": "קריית חיים"
+    },
+    {
+      "@type": "City",
+      "name": "קריית ביאליק"
+    },
+    {
+      "@type": "City",
+      "name": "קריית מוצקין"
+    }
+  ]
+}
+</script>
 
 
 <!-- =========================
@@ -131,6 +154,49 @@
     header p {
         font-size: 20px;
         margin: 0;
+    }
+
+
+    /* =========================
+       אזור שירות
+       ========================= */
+
+    .service-area {
+
+        max-width: 900px;
+
+        margin: 25px auto 0;
+
+        padding: 20px;
+
+        background: white;
+
+        border-radius: 10px;
+
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+    }
+
+
+    .service-area h2 {
+
+        margin: 0 0 10px;
+
+        color: #1f4e79;
+
+        font-size: 24px;
+
+    }
+
+
+    .service-area p {
+
+        margin: 0;
+
+        font-size: 18px;
+
+        line-height: 1.6;
+
     }
 
 
@@ -281,7 +347,7 @@
 
 <nav>
 
-<a href="iisstart.htm">דף הבית</a>
+<a href="index.html">דף הבית</a>
 
 <!--
 <a href="irrigation.htm">השקיה</a>
@@ -306,13 +372,33 @@
 
 <header>
 
-<h1>שירותי תחזוקה ותיקונים</h1>
+<h1>שירותי תחזוקה ותיקונים באזור הקריות</h1>
 
 <p>
     פתרונות לבית, לגינה ולעסק
 </p>
 
 </header>
+
+
+<!-- =========================
+     אזור שירות
+     ========================= -->
+
+<section class="service-area">
+
+<h2>📍 אזור השירות</h2>
+
+<p>
+    שירות באזור הקריות:
+    קריית אתא,
+    קריית חיים,
+    קריית ביאליק,
+    קריית מוצקין
+    והסביבה.
+</p>
+
+</section>
 
 
 <!-- =========================
@@ -403,7 +489,8 @@
 </a>
 
 
-<a class="whatsapp" href="https://wa.me/972500000000">
+<a class="whatsapp" href="https://wa.me/972500000000"
+   target="_blank" rel="noopener">
 
 💬 WhatsApp
 
@@ -416,3 +503,4 @@
 </body>
 
 </html>
+```
