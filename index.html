@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 
 <html lang="he" dir="rtl">
@@ -8,7 +9,73 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>שירותי תחזוקה ותיקונים</title>
+
+<!-- =========================
+     FAVICON
+     ========================= -->
+
+<link rel="icon" href="favicon.png" type="image/png">
+
+
+<!-- =========================
+     SEO
+     ========================= -->
+
+<title>דרור דותן | מערכות השקיה, מחשבים, תקשורת ותיקונים</title>
+
+<meta name="description"
+      content="דרור דותן – שירותי תחזוקה ותיקונים לבית, לגינה ולעסק. מערכות השקיה, מחשבים ותקשורת, התקנות לבית, תיקונים ומערכות אבטחה.">
+
+<meta name="robots" content="index, follow">
+
+<meta name="author" content="דרור דותן">
+
+<link rel="canonical" href="https://דרור.ישראל/">
+
+
+<!-- =========================
+     OPEN GRAPH
+     ========================= -->
+
+<meta property="og:type" content="website">
+
+<meta property="og:title"
+      content="דרור דותן | מערכות השקיה, מחשבים, תקשורת ותיקונים">
+
+<meta property="og:description"
+      content="שירותי תחזוקה ותיקונים לבית, לגינה ולעסק – מערכות השקיה, מחשבים ותקשורת, התקנות ומערכות אבטחה.">
+
+<meta property="og:url"
+      content="https://דרור.ישראל/">
+
+<meta property="og:locale" content="he_IL">
+
+
+<!--
+<meta property="og:image"
+      content="https://דרור.ישראל/favicon.png">
+
+<meta property="og:image:alt"
+      content="דרור דותן – שירותי תחזוקה ותיקונים">
+-->
+
+
+<!-- =========================
+     TWITTER / X
+     ========================= -->
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title"
+      content="דרור דותן | מערכות השקיה, מחשבים, תקשורת ותיקונים">
+
+<meta name="twitter:description"
+      content="שירותי תחזוקה ותיקונים לבית, לגינה ולעסק. מערכות השקיה, מחשבים ותקשורת, התקנות ומערכות אבטחה.">
+
+
+<!-- =========================
+     CSS
+     ========================= -->
 
 <style>
 
@@ -204,7 +271,9 @@
 
 </head>
 
+
 <body>
+
 
 <!-- =========================
      תפריט ניווט
@@ -230,6 +299,7 @@
 
 </nav>
 
+
 <!-- =========================
      כותרת ראשית
      ========================= -->
@@ -244,11 +314,13 @@
 
 </header>
 
+
 <!-- =========================
      שירותים
      ========================= -->
 
 <section class="services">
+
 
 <a class="service" href="irrigation.htm">
 
@@ -261,6 +333,7 @@
 
 </a>
 
+
 <a class="service" href="computers.htm">
 
 <h2>📡 מחשבים ותקשורת</h2>
@@ -271,14 +344,17 @@
 
 </a>
 
+
 <a class="service" href="installations.htm">
 
 <h2>📺 התקנות לבית</h2>
 
-<p> תליית טלוויזיות, רמקולים ומערכות שונות
+<p>
+    תליית טלוויזיות, רמקולים ומערכות שונות.
 </p>
 
 </a>
+
 
 <a class="service" href="home-repairs.htm">
 
@@ -291,6 +367,7 @@
 
 </a>
 
+
 <a class="service" href="security.htm">
 
 <h2>📷 מערכות אבטחה</h2>
@@ -302,7 +379,9 @@
 
 </a>
 
+
 </section>
+
 
 <!-- =========================
      יצירת קשר
@@ -316,11 +395,13 @@
     צרו קשר ונבדוק איך אפשר לעזור.
 </p>
 
+
 <a class="phone" href="tel:0500000000">
 
 📞 התקשרו
 
 </a>
+
 
 <a class="whatsapp" href="https://wa.me/972500000000">
 
@@ -328,8 +409,32 @@
 
 </a>
 
+
 </section>
+
 
 </body>
 
 </html>
+```
+
+### מה צריך להכניס ל־GitHub
+
+באותה תיקייה שבה נמצא `iisstart.htm`:
+
+```text
+iisstart.htm
+favicon.png
+irrigation.htm
+computers.htm
+installations.htm
+home-repairs.htm
+security.htm
+contact.htm
+```
+
+ה־`favicon.png` הוא האייקון שיצרנו עכשיו.
+
+**הערה אחת חשובה:** השארתי את מספר הטלפון בדיוק כפי שהיה בקוד שלך (`0500000000`), כי הוא נראה כמו מספר דוגמה. לפני העלאה לאתר צריך להחליף אותו במספר האמיתי גם ב־`tel:` וגם בקישור WhatsApp.
+
+אחרי שנסדר את דף הבית, הייתי עובר איתך **אחד־אחד על ששת הדפים האחרים** ונותן לכל אחד `title`, `description`, `canonical` ו־Open Graph שמתאימים בדיוק לתוכן שלו.
